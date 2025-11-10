@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+}
+header {
+  background: #1f3b6d;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+header h1 {
+  margin: 10px 0 0;
+  font-size: 28px;
+}
+.logo {
+  width: 80px;
+  height: auto;
+}
+section {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+h2 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+.department {
+  background: white;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.department h3 {
+  margin-top: 0;
+  color: #1f3b6d;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+ul li::before {
+  content: "✔ ";
+  color: #1f3b6d;
+  font-weight: bold;
+}
